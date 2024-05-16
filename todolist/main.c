@@ -69,10 +69,13 @@ void optionDeal(int option, Task *allTasks, int *taskCount) {
 		printf("--- Adicionando Nova Tarefa ---\n");
 		Task newTask = createTask();
 		addTaskToList(newTask, allTasks, taskCount);
+		break;
 
 	case 4:
 		printf("--- Lendo Tarefas ---\n");
 		readAllTasks(allTasks, taskCount);
+		break;
+		
 	}
 }
 
